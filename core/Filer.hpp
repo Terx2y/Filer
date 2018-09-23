@@ -1,5 +1,5 @@
-#ifndef _FILER_H
-#define _FILER_H
+#ifndef FILER_HPP_
+#define FILER_HPP_
     #include <string>
 
     /*
