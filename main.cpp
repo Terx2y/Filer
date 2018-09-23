@@ -3,6 +3,7 @@
 #include <string>
 
 #include "core/Filer.hpp"
+#include "core/Info.hpp"
 
 int main(int argc, char* argv[], char* env[])
 {
@@ -64,7 +65,7 @@ int main(int argc, char* argv[], char* env[])
       }
     }
     else{
-        std::cout << "Argument can't be empty!\n";
+        info::help::usage();
     }
 	return 0;
 }
